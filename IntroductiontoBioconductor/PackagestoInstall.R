@@ -1,0 +1,52 @@
+BiocManager::install(c("genefu",
+                       "COPDSexualDimorphism.data",
+                       "GenomicRanges",
+                       "gwascat",
+                       "hgu133a.db",
+                       "genomicsclass/tissuesGeneExpression"))
+
+BiocManager::install(c("Homo.sapiens",
+                       "GenomicFeatures",
+                       "genomicsclass/ERBS",
+                       "genomicsclass/ph525x"))
+
+BiocManager::install(c("Biobase",
+                       "GEOquery",
+                       "genomicsclass/GSE5859Subset",
+                       "affy",
+                       "hgu95acdf",
+                       "genefilter",
+                       "parathyroidSE",
+                       "airway",
+                       "pasillaBamSubset",
+                       "Rsamtools",
+                       "GenomicAlignments",
+                       "ArrayExpress",
+                       "NGScopyData",
+                       "TxDb.Hsapiens.UCSC.hg19",
+                       "AnnotationDBI"))
+
+BiocManager::install(c("BSgenome",
+                       "BSgenome.Hsapiens.UCSC.hg19.masked",
+                       "TxDb.Hsapiens.UCSC.hg19",
+                       "org.Hs.eg.db",
+                       "ensembldb",
+                       "EnsDb.Hsapiens.v75",
+                       "AnnotationHub",
+                       "rtracklayer",
+                       "TxDb.Hsapiens.UCSC.hg38.knownGene",
+                       "KEGGREST",
+                       "rols",
+                       "GSEABase",
+                       "genomicsclass/ERBS",
+                       "R.utils",
+                       "png",
+                       "DT"))
+
+BiocManager::install(c("SpikeInSubset",
+                       "genefilter",
+                       "qvalue",
+                       "limma",
+                       "genomicsclass/maPooling",
+                       "leukemiasEset",
+                       "preprocessCore"))
