@@ -1,0 +1,12 @@
+Package: Sac.cer3
+Title: Annotation package for the Sac.cer3 object
+Description: Contains the Sac.cer3 object to access data from several related annotation packages.
+Version: 1.0.0
+Author: Student <ph525x@harvardx.edu>
+Maintainer: Student <ph525x@harvardx.edu>
+Depends: R (>= 1.6), AnnotationDbi (>= 1.17.11), methods, OrganismDbi, GenomicFeatures, GO.db, org.Sc.sgd.db, TxDb.Scerevisiae.UCSC.sacCer3.sgdGene
+Imports: GenomicFeatures, AnnotationDbi
+License: Artistic-2.0
+organism: Saccharomyces cerevisiae
+species: Saccharomyces cerevisiae
+biocViews: AnnotationData, Genetics, OrganismDb, Saccharomyces_cerevisiae
